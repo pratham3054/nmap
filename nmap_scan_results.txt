@@ -1,0 +1,23 @@
+Nmap scan report
+----------------
+
+Command used:
+nmap -sC -sV <TARGET_IP>
+
+Scan Summary:
+Host is up (very low latency).
+Not shown: 999 closed tcp ports (reset)
+
+Open Ports:
+22/tcp open ssh
+    |-- Service: OpenSSH 10.2p1 Debian 2
+    |-- Protocol: SSH (Secure Shell)
+    |-- OS: Linux
+    |-- CPE: cpe:/o:linux:linux_kernel
+
+Interpretation:
+Port 22 is open and running an SSH server. SSH is used for secure remote login and secure file transfer. 
+Since it's publicly accessible inside the local network, an attacker could attempt brute force or
+version-based vulnerabilities if SSH is not properly configured.
+
+Scan completed in ~1 second.
