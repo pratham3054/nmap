@@ -39,14 +39,6 @@ Perform a basic Nmap scan on a local virtual machine to identify open ports, run
 
 ---
 
-## Screenshots
-- Screenshot of Nmap command
-- Screenshot of Nmap results
-
-(Place your screenshots inside a `screenshots/` folder)
-
----
-
 ## Conclusion
 The VM is running a single open port (22 - SSH).  
 All other ports are closed, indicating a secure default configuration.  
